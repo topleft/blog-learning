@@ -62,13 +62,14 @@ header {
   padding-top: 3rem;
 }
 
-#main-img {
-  display: block;
-  margin: 0 40%:
+#main-image {
+  display: inline-block;
+  margin: 0 40%;
+  width: 20%;
 }
 
 header p {
-  margin: 2rem 20% 3rem 20%;
+  margin: 0rem 20% 3rem 20%;
 }
 
 /*---------Blog Post--------*/
@@ -81,6 +82,11 @@ header p {
 }
 
 .social {
+  display: inline-block;
   text-align: center;
   margin: 2rem;
+}
+
+.social li {
+    display: inline-block;
 }
